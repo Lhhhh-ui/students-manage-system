@@ -57,7 +57,7 @@ class Student{
 
     @Override
     public String toString() {
-        return "学号："+id+"学生姓名："+name+"性别："+sex+"年龄："+age;
+        return "学号：" + id + "　学生姓名：" + name + "　性别：" + sex + "　年龄：" + age;
     }
 }
 
@@ -282,7 +282,8 @@ public class Main {
 
         JTextArea studentArea=new JTextArea();
         studentArea.setEditable(false);
-        studentArea.setFont(new Font("微软雅黑",Font.BOLD,20));
+        studentArea.setFont(new Font("微软雅黑",Font.BOLD,16));
+        studentArea.setRows(6);
 
         JScrollPane scrollPane = new JScrollPane(studentArea);
         scrollPane.setBorder(BorderFactory.createTitledBorder("学生列表"));
