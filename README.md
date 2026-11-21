@@ -17,6 +17,20 @@
 - 浏览全部学生：独立窗口，表格展示，与主界面数据实时同步
 - 清空输入：一键清空当前表单
 
+## 项目截图
+
+### 登录注册
+
+![登录注册页面](screenshots/01-login.png)
+
+### 主界面
+
+![主界面](screenshots/02-main.png)
+
+### 学生列表
+
+![学生列表](screenshots/03-list.png)
+
 ## 技术栈
 
 | 项目 | 说明 |
@@ -33,6 +47,7 @@
 students-manage-system/
 ├── src/
 │   └── Main.java          # 入口类，包含 User、Student、Main 三个类
+├── screenshots/           # 项目运行截图
 ├── .gitignore
 └── README.md
 ```
